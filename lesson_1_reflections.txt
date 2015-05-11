@@ -1,0 +1,70 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    When we used 
+    diff file1 file2 
+    ,the lines which were deleted from the older version and which were inserted 
+    into the newer version were clearly displayed on the console along with some extra
+    information which helps in telling the exact position of modification.
+    This highlighted dfference helps in finding the lines which caused bugs.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It may happend that when we are working on a new project or an existing one
+    we may do a small mistake which may make the whole project go haywire.I case of
+    software projects ,even if the mistake is small the whole project will be affected 
+    and may not run as intended.
+    If we have the complete history of our file modifications then even if we do some error
+    we easily rectify it by contrasting our current files with some previous files which may not
+    be having an error.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros:
+    Git is concerned primarily with keeping track of software projects,hence if we save manually 
+    it will be ensured that the versions saved are consistent and can be executed.
+    We will have just the write amount of commits neither less nor more.
+
+    cons:
+    It may happen that by mistake we might induce some bug which might go unnoticed if we are saving
+    manually.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is concerned with tracking versions of software projects.Usually it happens
+    that the files are related and all the files contribute to the final program and hence
+    Git keeps track of all the inter related files as one cohesive unit named as a repository.
+    Whereas the others are not concerned with programming projects and hence do not allow so.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    First we can use
+    git log
+    or
+    git log --stat 
+    to view all the commits that have been made.We are presented with all the commits along with 
+    their authors,timestamps and a statement indicating the change made.
+    Each of the commits has a unique commit id,we can use this commit id to compare the difference
+    between the files in two commits using
+    git diff commit1 commit2
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    By using version control software like git I am assured that all the logical changes(commits)
+    are available and I can compare the files in these commits in case of any mishap.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git primarily for controlling the version of all my future projects.Foremost 
+    I want to use it to track bugs and make and submit patches for KDE softwares
+
+    NOTES
+    A commit saves a snapshot of all files in the repository at the time the commit was made.
+
+    A repository is a collection of files which are to be tracked together.
