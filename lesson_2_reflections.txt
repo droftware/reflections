@@ -1,0 +1,33 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	When we initialize a repository a hidden directory by the name of git is created 
+	which will be used to store the metadata about different version of the directory.
+	We need it so that different versions of the directory can be trackked by git.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
+
+NOTES
+
+git status shows which files have been changed since last commit.
+
+HEAD is gits name for current commit 
+
+from notes
+You are in 'detached HEAD' state 
+HEAD is what Git calls the commit you are currently on. You can “detach” the HEAD by switching to a previous commit, which we’ll see in the next video. Despite what it sounds like, it’s actually not a bad thing to detach the HEAD. Git just warns you so that you’ll realize you’re doing it.
+
