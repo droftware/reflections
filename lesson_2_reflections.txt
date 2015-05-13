@@ -7,11 +7,29 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+	Staging area is an intermediate area in which we can add files one at a time
+	and when we commit the files in staging area are commited.It is an area which
+	stores files which will go into the next commit.
+	Using staging area we have extra control as to what goes into the commit.Since 
+	each logical change is usually comitted we can control which of the file modifications 
+	are to be included in each individual commit.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	We should only add those files to the staging area which we have modifified  while 
+	making that one logical change.Then we should commit.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	Branches can help us in many ways.Suppose we want to develop a new feature of a software 
+	which we are developing or there is some issue which crops up and we want to tacal it 
+	separately from the main devlopment branch or suppose we want to develop an alternative 
+	version of the software.
+	Branches will help since we can carry on our separate devlopment work from the current
+	commit without disrupting the main development branch so that if we want to present some demo
+	or if our separate feature goes haywire we can always come back on the master branch.
 
 How do the diagrams help you visualize the branch structure?
 
