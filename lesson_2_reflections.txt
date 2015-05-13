@@ -33,6 +33,14 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	By using the command,
+	git log --graph --oneline
+	we can view an ASCII graph of all the branches which are reachable from the current commit.
+	Using it we can draw a diagram of all the branches visible from the current commit.
+	The diagrams show from which commits have the branc been derived from,how much change has
+	been made to the branch from which we dervived our new branch and which branches have now 
+	been merged.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
