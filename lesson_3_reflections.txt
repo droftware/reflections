@@ -5,16 +5,22 @@ local?
     repository to which all the people developing can push and pull their changes 
 	to so as to have the entire project development in a single place.
 
-
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    Suppose we have pulled from the remote and have comitted a few changes on our 
+    local version.Meanwhile the remote has changed since other people have pushed their
+    changes.In such a case we dont want our version to be disturbed by changes unless we
+    have made our changes fully. 
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Fork is a github feature in which a public repository can be copied to our account so 
+    that we can modify/add the code to our liking.Forking a repository also links to the original
+    repository giving the original author credit,also we can easily make pull requests to the 
+    original repository of an additional feature which we have developed and want to incorporate
+    in the original repository.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
