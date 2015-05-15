@@ -36,3 +36,16 @@ When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
     Fill in your answer here
+
+NOTES
+
+Cloning sets up a remote to the repository from where we have cloned.
+
+Git stores local copies of all the remote branches.
+
+You can update just the local copy(origin/master) of the remote branch by leaving your actual 
+local copy(master) alone by using 
+git fetch
+
+git pull equivalent to
+git fetch and git merge
